@@ -14,7 +14,7 @@ router.get('/IPN',(req,res) => {
 router.post('/IPN',(req,res) => {
 
     //console.log(req.body);
-    const respuesta = {...req.body};
+    const respuesta = {...req.body["kr-answer"]};
 
     datos.push(respuesta);
 
