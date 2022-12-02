@@ -7,7 +7,7 @@ console.log(datos)
 
 router.get('/IPN',(req,res) => {
   
-    res.json(datos);
+    res(datos);
 
 });
 
