@@ -18,7 +18,7 @@ router.post('/IPN',(req,res) => {
 
     datos.push(respuesta);
 
-    res.json(datos);
+    res(datos);
 
         
 
